@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                
+                <img src="logo.png" alt="Spotify">Spotify
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songbanner"></div>
+        <div class="songlist">
+            <h1>Taylor Swift Through The Eras</h1>
+            <div class="songitemcontainer">
+            <div class="songitem">
+                <img src="covers/1.jpeg" alt="1">
+                <span class="songName">Our Song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">5:34<i id="0" class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    
+                </span>
+            </div>
+            <div class="songitem">
+                <img src="covers/2.jpg" alt="1">
+                <span class="songName">Our Song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">5:34<i id="1" class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    
+                </span>
+            </div>
+            <div class="songitem">
+                <img src="covers/3.jpeg" alt="1">
+                <span class="songName">Our Song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">5:34<i id="2" class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    
+                </span>
+            </div>
+            <div class="songitem">
+                <img src="covers/4.jpg" alt="1">
+                <span class="songName">Our Song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">5:34<i id="3" class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    
+                </span>
+            </div>
+            <div class="songitem">
+                <img src="covers/5.jpg" alt="1">
+                <span class="songName">Our Song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">5:34<i id="4" class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    
+                </span>
+            </div>
+            <div class="songitem">
+                <img src="covers/6.jpg" alt="1">
+                <span class="songName">Our Song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">5:34<i id="5" class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    
+                </span>
+            </div>
+            <div class="songitem">
+                <img src="covers/8.jpg" alt="1">
+                <span class="songName">Our Song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">5:34<i id="6" class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    
+                </span>
+            </div>
+            <div class="songitem">
+                <img src="covers/9.jpg" alt="1">
+                <span class="songName">Our Song</span>
+                <span class="songlistplay">
+                    <span class="timestamp">5:34<i id="7" class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    
+                </span>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="=0" max="100">
+        <div class="icons">
+            <i class="fa-solid fas fa-backward" id="previous"></i>
+            <i class="fa-regular fas fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fas fa-forward" id="next"></i>
+          <!--font awesome icons-->  
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="playing" id="gif"><span id="masterSongName"> Our Song</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
